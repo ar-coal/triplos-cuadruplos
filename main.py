@@ -3,7 +3,7 @@ import sys
 try:
     x = sys.argv[1]
 except:
-    x = input()
+    x = input("ingresa una operacion:\n")
 # x = "(X*y+y/z)*(z+y)"
 or_str = x
 data = {}
